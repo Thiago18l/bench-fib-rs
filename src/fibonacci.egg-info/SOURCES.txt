@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/fibonacci.egg-info/PKG-INFO
+src/fibonacci.egg-info/SOURCES.txt
+src/fibonacci.egg-info/dependency_links.txt
+src/fibonacci.egg-info/requires.txt
+src/fibonacci.egg-info/top_level.txt

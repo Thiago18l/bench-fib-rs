@@ -1,0 +1,16 @@
+[package]
+name = "fibonacci"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "fibonacci"
+version = "0.1.0"
+crate-type = ["dylib"]
+
+[dependencies]
+cpython = "0.7.2"
+
+[dependecies.cpython]
+version = "0.7.2"
+features = ["extension-module"]

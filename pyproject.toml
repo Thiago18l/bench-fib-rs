@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fibonacci"
+version = "0.1.0"
+dependencies = ["pytest", "pytest-benchmark"]
+requires-python = ">= 3.11"
+authors = [{ name = "Thiago Lopes", email = "thiago.lopes.dev@gmail.com" }]
+readme = "README.md"
