@@ -15,3 +15,8 @@ def test_pure_python(benchmark):
 
 def test_rust(benchmark):
     benchmark(fibonacci.fibonacci, 10)
+
+
+if __name__ == '__main__':
+    print(fibonacci.fibonacci(10))
+    print(fibonacci_py(10))
